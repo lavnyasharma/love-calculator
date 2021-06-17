@@ -1,0 +1,192 @@
+body {
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    max-height: auto;
+    margin: 0;
+    overflow: hidden;
+    padding: 2px;
+    border: 10px;
+    background-color: pink;
+}
+
+.calc {
+    max-width: auto;
+    max-height: auto;
+    margin-top: 20px;
+    clear: both;
+}
+
+#result {
+    max-width: auto;
+    max-height: auto;
+    color: rgb(202, 58, 58);
+    font-size: 85px;
+    text-shadow: 1px 1px 1px #646161;
+    position: absolute;
+    bottom: 12px;
+}
+
+#no {
+    max-width: auto;
+    max-height: auto;
+    margin: 0;
+    box-sizing: border-box;
+    position: absolute;
+    top: 2%;
+    text-align: center;
+    left: 7%;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #121FCF;
+    background: -webkit-linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+    background: -moz-linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+    background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#no1 {
+    max-width: auto;
+    max-height: auto;
+    position: relative;
+    top: 5vh;
+    text-align: center;
+    font-size: 3vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #121FCF;
+    background: -webkit-linear-gradient(to right, #121FCF 0%, #CF4FC6 100%);
+    background: -moz-linear-gradient(to right, #121FCF 0%, #CF4FC6 100%);
+    background: linear-gradient(to right, #121FCF 0%, #CF4FC6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#new {
+    max-width: auto;
+    max-height: auto;
+    position: absolute;
+    top: 22%;
+    right: 25%;
+    border-radius: 50px;
+    font-size: 15px;
+}
+
+#no2 {
+    max-width: auto;
+    max-height: auto;
+    position: relative;
+    text-align: center;
+    top: 14vh;
+    font-size: 3vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #121FCF;
+    background: -webkit-linear-gradient(to right, #121FCF 0%, #CF4FC6 100%);
+    background: -moz-linear-gradient(to right, #121FCF 0%, #CF4FC6 100%);
+    background: linear-gradient(to right, #121FCF 0%, #CF4FC6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#new2 {
+    position: absolute;
+    top: 42%;
+    right: 25%;
+    border-radius: 50px;
+    font-size: 15px;
+    max-width: auto;
+    max-height: auto;
+}
+
+#submit {
+    position: relative;
+    justify-content: center;
+    top: 30vh;
+    left: 35%;
+    border-radius: 50px;
+    font-size: 20px;
+    background-color: #ff0000;
+    max-width: auto;
+    max-height: auto;
+}
+
+#result {
+    position: absolute;
+    bottom: 15%;
+    left: 39%;
+    border-radius: 50px;
+    font-size: 80px;
+    max-width: auto;
+    max-height: auto;
+}
+
+#n {
+    max-width: auto;
+    max-height: auto;
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: -webkit-linear-gradient(to right, #96CF25 0%, #CFB6C0 100%);
+    background: -moz-linear-gradient(to right, #96CF25 0%, #CFB6C0 100%);
+    background: linear-gradient(to right, #96CF25 0%, #CFB6C0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#submit {
+    border: solid #337FED 1px;
+    background: #FE03E6;
+    background-image: -webkit-linear-gradient(top, #FE03E6, #3D94F6);
+    background-image: -moz-linear-gradient(top, #FE03E6, #3D94F6);
+    background-image: -ms-linear-gradient(top, #FE03E6, #3D94F6);
+    background-image: -o-linear-gradient(top, #FE03E6, #3D94F6);
+    background-image: -webkit-gradient(to bottom, #FE03E6, #3D94F6);
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    text-decoration: none;
+}
+
+#submit:hover {
+    border: solid #89b3ee 1px;
+    background: #fc90f1;
+    background-image: -webkit-linear-gradient(top, #fc90f1, #3D94F6);
+    background-image: -moz-linear-gradient(top, #fc90f1, #3D94F6);
+    background-image: -ms-linear-gradient(top, #fc90f1, #3D94F6);
+    background-image: -o-linear-gradient(top, #fc90f1, #3D94F6);
+    background-image: -webkit-gradient(to bottom, #fc90f1, #3D94F6);
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    text-decoration: none;
+}
+
+#name {
+    max-width: auto;
+    max-height: auto;
+    position: absolute;
+    bottom: 16%;
+    font-size: 10px;
+    right: 4%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #121FCF;
+    background: -webkit-linear-gradient(to right, #121FCF 0%, #CF4FC6 100%);
+    background: -moz-linear-gradient(to right, #121FCF 0%, #CF4FC6 100%);
+    background: linear-gradient(to right, #121FCF 0%, #CF4FC6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#C {
+    max-width: auto;
+    max-height: auto;
+    position: absolute;
+    bottom: 15%;
+    font-size: 13px;
+    right: 27%;
+    background: #121FCF;
+    background: -webkit-linear-gradient(to right, #121FCF 0%, #CF4FC6 100%);
+    background: -moz-linear-gradient(to right, #121FCF 0%, #CF4FC6 100%);
+    background: linear-gradient(to right, #121FCF 0%, #CF4FC6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
